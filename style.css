@@ -117,23 +117,18 @@ body{
     width: 22rem;
   }
 }
-/* programmer image edit */
+/* programmer image edit for laptop*/
 .programmer{
   height: 31.25rem;
   width: 31.25rem;
   margin: 2% 0 0 10%;
 }
-@media only screen and (max-width: 990px){
-  .programmer{
-    height: 22rem;
-    width: 22rem;
-  }
-}
+/* programmer pic for mobile */
 @media only screen and (max-width:796px){
   .programmer{
     margin: 0 0 0 10%;
-    height:22.5rem;
-    width: 22.5rem;
+    height:20rem;
+    width: 20rem;
   }
 }
 /* aboutme for laptop screen*/
@@ -187,7 +182,6 @@ ul{
 .language{
   font-size: 1.10rem;
   font-weight: bold;
-  line-spacing: 2px;
 }
 .aboutme-pic{
   height: 22rem;
@@ -209,8 +203,8 @@ ul{
     font-size: 1rem;
   }
   .aboutme-pic{
-    height: 22rem;
-    width: 22rem;
+    height: 20rem;
+    width: 20rem;
   }
 }
 /* projects for laptop screen */
@@ -310,8 +304,14 @@ ul{
     font-size: 1.5rem;
   }
   .projects-img{
-    height: 22rem;
-    width: 22rem;
+    height: 20rem;
+    width: 20rem;
+  }
+  .projects-tab1{
+    height: 50vh;
+  }
+  .projects-tab2{
+    height: 50vh;
   }
   .project1{
     font-size: 1.75rem;
@@ -327,7 +327,7 @@ ul{
 .message{
   background-color: #000000;
   padding: 5% 0 0 10%;
-  height: 60vh;
+  height: 80vh;
 }
 .message-heading{
   letter-spacing: 0.5px;
@@ -375,7 +375,10 @@ border: 1px solid rgba(137,44,220,0.25);
 /* message for moble resolution */
 @media only screen and (max-width:796px){
   .message{
-    height: 75vh;
+    height: 100vh;
+  }
+  .message-tab1{
+    height: 50vh;
   }
   .message-heading{
   font-size:  1.75rem;
@@ -383,18 +386,21 @@ border: 1px solid rgba(137,44,220,0.25);
 .message-description{
   font-size: 1rem;
 }
+.message-tab2{
+  height: 50vh;
+}
 .heart-pic{
-  height: 22rem;
-  width: 22rem;
+  height: 20rem;
+  width: 20rem;
 }
 .heart-pic:hover{
-  height: 23rem;
-  width: 23rem;
+  height: 21rem;
+  width: 21rem;
 }
 }
 /* contact for latop resolution */
 .contact{
-  height: 80vh;
+  height: 100vh;
   background-image: linear-gradient(to right,#000000,#52057B,#892CDC);
   padding: 5% 0 0 10%;
 }
@@ -449,6 +455,9 @@ border: 1px solid rgba(137,44,220,0.25);
 }
 /* contact for tablet resolution */
 @media only screen and (max-width:1143px) and (min-width: 796px){
+  .contact{
+    height: 100vh;
+  }
 .call-of-action1{
   font-size: 1.5rem;
 }
@@ -463,6 +472,15 @@ border: 1px solid rgba(137,44,220,0.25);
 }
 }
 @media only screen and (max-width:796px){
+  .contact{
+    height:100vh;
+  }
+  .contact-tab1{
+    height:50vh;
+  }
+  .contact-tab2{
+    height:50vh;
+  }
 .call-of-action2{
   font-size: 1.75rem;
 }
