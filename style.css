@@ -127,8 +127,8 @@ body{
 @media only screen and (max-width:796px){
   .programmer{
     margin: 0 0 0 10%;
-    height:20rem;
-    width: 20rem;
+    height:16rem;
+    width: 16rem;
   }
 }
 /* aboutme for laptop screen*/
@@ -193,6 +193,12 @@ ul{
   .about{
     height:120vh;
   }
+  .about-tab1{
+    height: 60vh;
+  }
+  .about-tab2{
+    height:60vh;
+  }
   .aboutme-heading{
     font-size: 1.75rem;
   }
@@ -203,8 +209,8 @@ ul{
     font-size: 1rem;
   }
   .aboutme-pic{
-    height: 20rem;
-    width: 20rem;
+    height: 16rem;
+    width: 16rem;
   }
 }
 /* projects for laptop screen */
@@ -295,7 +301,7 @@ ul{
 /* projects for mobile screen */
 @media only screen and (max-width:796px){
   .projects{
-    height: 100vh;
+    height: 120vh;
   }
   .projects-heading{
     font-size: 1.75rem;
@@ -304,8 +310,8 @@ ul{
     font-size: 1.5rem;
   }
   .projects-img{
-    height: 20rem;
-    width: 20rem;
+    height: 16rem;
+    width: 16rem;
   }
   .projects-tab1{
     height: 50vh;
@@ -390,12 +396,12 @@ border: 1px solid rgba(137,44,220,0.25);
   height: 50vh;
 }
 .heart-pic{
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
 }
 .heart-pic:hover{
-  height: 21rem;
-  width: 21rem;
+  height: 16rem;
+  width: 16rem;
 }
 }
 /* contact for latop resolution */
