@@ -196,6 +196,9 @@ ul{
 }
 /* aboutme for mobile screen */
 @media only screen and (max-width : 796px){
+  .about{
+    height:120vh;
+  }
   .aboutme-heading{
     font-size: 1.75rem;
   }
