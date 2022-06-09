@@ -481,6 +481,7 @@ border: 1px solid rgba(137,44,220,0.25);
   .contact{
     height:100vh;
   }
+  /* height is equally divided to two parts*/
   .contact-tab1{
     height:50vh;
   }
