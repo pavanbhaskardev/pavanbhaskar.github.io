@@ -197,6 +197,7 @@ ul{
     height: 60vh;
   }
   .about-tab2{
+    padding-top:40%;
     height:60vh;
   }
   .aboutme-heading{
@@ -477,15 +478,17 @@ border: 1px solid rgba(137,44,220,0.25);
   font-size: 1.25rem;
 }
 }
+/*contact for mobile resolution8*/
 @media only screen and (max-width:796px){
+    /* height is equally divided to two parts*/
   .contact{
     height:100vh;
   }
-  /* height is equally divided to two parts*/
   .contact-tab1{
     height:50vh;
   }
   .contact-tab2{
+    padding-top:40%;
     height:50vh;
   }
 .call-of-action2{
