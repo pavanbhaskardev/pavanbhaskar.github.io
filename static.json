@@ -1,0 +1,7 @@
+{
+  "root": "dist", // or "public", depending on your output folder
+  "clean_urls": true,
+  "routes": {
+    "/**": "index.html"
+  }
+}
